@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Website</title>
+    <!-- Link to common CSS -->
+    <link rel="stylesheet" href="./common.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome to Our Website</h1>
+    </header>
+
+    <nav class="nav">
+      <ul class="navMenu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="/pages/aboutUs.html">About Us</a></li>
+        <li><a href="/pages/products.html">Products</a></li>
+        <li><a href="/pages/contactUs.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Contact Us Section -->
+      <section id="contactUs" class="contactForm">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="button">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

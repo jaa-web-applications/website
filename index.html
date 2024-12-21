@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <!-- Link to common CSS -->
+    <link rel="stylesheet" href="./src/styles/common.css" />
+    <link rel="stylesheet" href="./src/styles/aboutUs.css" />
+    <link rel="stylesheet" href="./src/styles/home/index.css" />
+    <link rel="stylesheet" href="./src/styles/products.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logoWrapper">
+        <img src="./assets/images/logo.png" alt="Logo" class="logo" />
+      </div>
+      <nav class="nav" id="mobileNav">
+        <ul class="navMenu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="/pages/aboutUs.html">About Us</a></li>
+          <li><a href="/pages/products.html">Products</a></li>
+          <li><a href="/pages/contactUs.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="loginWrapper">
+        <a href=".login" class="link">
+          <img src="./assets/images//user.png" alt="Login" class="loginIcon" />
+          Login
+        </a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="homeHero">
+        <div class="slider">
+          <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <p>Transforming businesses with IT excellence</p>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <p>Innovative Solutions for the Future</p>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+              <p>Your Partner in Digital Transformation</p>
+            </div>
+          </div>
+          <!-- Dots for navigation -->
+          <div class="sliderDots">
+            <span class="dot" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="productsSection">
+        <h2>Our Featured Products</h2>
+        <p>Discover our top-notch IT solutions</p>
+        <button class="viewAllProducts">View All Products</button>
+        <div class="productGrid">
+          <!-- Product 1 -->
+          <div class="productCard">
+            <div class="productTag">New Arrival</div>
+            <div class="productImage">Product Image</div>
+            <h3>Product 1</h3>
+            <p>Key Features</p>
+          </div>
+          <!-- Product 2 -->
+          <div class="productCard">
+            <div class="productTag">Bestseller</div>
+            <div class="productImage">Product Image</div>
+            <h3>Product 2</h3>
+            <p>Specifications</p>
+          </div>
+          <!-- Product 3 -->
+          <div class="productCard">
+            <div class="productImage">Product Image</div>
+            <h3>Product 3</h3>
+            <p>Customer Reviews</p>
+          </div>
+          <!-- Product 4 -->
+          <div class="productCard">
+            <div class="productImage">Product Image</div>
+            <h3>Product 4</h3>
+            <p>Affordable Solutions</p>
+          </div>
+          <!-- Product 5 -->
+          <div class="productCard">
+            <div class="productImage">Product Image</div>
+            <h3>Product 5</h3>
+            <p>Enterprise Features</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footerContent">
+        <p>&copy; 2024  All Rights Reserved.</p>
+        <nav class="footerNav">
+          <ul class="footerMenu">
+            <li><a href="#privacyPolicy">Privacy Policy</a></li>
+            <li><a href="#termsOfService">Terms of Service</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="./src//scripts/app.js" defer></script>
+  </body>
+</html>

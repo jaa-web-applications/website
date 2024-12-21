@@ -1,0 +1,52 @@
+/* Mobile-first styles */
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .aboutUs h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .aboutUs p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Tablet and up */
+  @media (min-width: 768px) {
+    .aboutUs {
+      padding: 40px;
+    }
+  
+    .aboutUs h2 {
+      font-size: 2.2rem;
+    }
+  
+    .aboutUs p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Desktop and up */
+  @media (min-width: 1024px) {
+    .aboutUs {
+      flex-direction: row;
+      text-align: left;
+      padding: 60px;
+    }
+  
+    .aboutUs h2 {
+      font-size: 2.5rem;
+    }
+  
+    .aboutUs p {
+      font-size: 1.4rem;
+    }
+  }
+  
